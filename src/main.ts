@@ -104,7 +104,7 @@ export default class MyPlugin extends Plugin {
 class SampleModal extends Modal {
 	onOpen() {
 		const { contentEl } = this;
-		contentEl.setText('Woah!');
+		contentEl.setText('Hello Lucy!');
 	}
 
 	onClose() {
